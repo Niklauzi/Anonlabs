@@ -46,7 +46,7 @@ export const NavBar = () => {
               Home
             </Nav.Link>
             <Nav.Link
-              href="#skills"
+              href="#products"
               className={
                 activeLink === "skills" ? "active navbar-link" : "navbar-link"
               }
@@ -74,7 +74,7 @@ export const NavBar = () => {
             </Nav.Link>
           </Nav>
           <span className="navbar-text">
-            <div className="social-icon">
+            {/* <div className="social-icon">
               <a href="#h">
                 <img src={navIcon1} alt="" />
               </a>
@@ -84,9 +84,9 @@ export const NavBar = () => {
               <a href="#h">
                 <img src={navIcon3} alt="" />
               </a>
-            </div>
+            </div> */}
             <button className="vvd" onClick={() => console.log("connect")}>
-              <span>Let's connect</span>
+              <span>GET $AIRE</span>
             </button>
           </span>
         </Navbar.Collapse>
