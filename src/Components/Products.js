@@ -2,9 +2,9 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Container, Row, Col } from "react-bootstrap";
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import meter1 from "../assets/img/Anon.png";
+import meter2 from "../assets/img/Aireplugg.png";
+import meter3 from "../assets/img/Allist1.png";
 import colorSharp from "../assets/img/color-sharp.png";
 
 export const Products = () => {
@@ -49,17 +49,12 @@ export const Products = () => {
                 </div>
 
                 <div className="item">
-                  <img src={meter1} alt="image" />
-                  <h5>AireLite</h5>
-                </div>
-
-                <div className="item">
-                  <img src={meter1} alt="image" />
+                  <img src={meter3} alt="image" />
                   <h5>Allist</h5>
                 </div>
 
                 <div className="item">
-                  <img src={meter1} alt="image" />
+                  <img src={meter2} alt="image" />
                   <h5>AirePlug</h5>
                 </div>
               </Carousel>

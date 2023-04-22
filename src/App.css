@@ -436,6 +436,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
 }
 
+.about h4 {
+  text-align: center;
+  font-weight: 10;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(231, 103, 103);
+}
+
 .footer {
   padding: 0 0 50px 0;
 

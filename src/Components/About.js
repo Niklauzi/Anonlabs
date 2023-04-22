@@ -7,6 +7,7 @@ export const About = () => {
     <section className="contact about" id="about">
       <Container>
         <Row className="align-items-center">
+          <h4>This site is still under construction</h4>
           <h2>About</h2>
           <p>
             Aire is a real-world community-driven DAO that aims to provide a
