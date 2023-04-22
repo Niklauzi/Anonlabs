@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import logo from "../assets/img/logo.svg";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/twitter.svg";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -55,13 +52,13 @@ export const NavBar = () => {
               Products
             </Nav.Link>
             <Nav.Link
-              href="#governance"
+              href="#AireDAO"
               className={
                 activeLink === "project" ? "active navbar-link" : "navbar-link"
               }
               onClick={() => onUpdateActiveLink("home")}
             >
-              Governance
+              Aire DAO
             </Nav.Link>
             <Nav.Link
               href="#about"
@@ -72,20 +69,18 @@ export const NavBar = () => {
             >
               About
             </Nav.Link>
+            <Nav.Link
+              href="#connect"
+              className={
+                activeLink === "project" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("home")}
+            >
+              Contact
+            </Nav.Link>
           </Nav>
           <span className="navbar-text">
-            {/* <div className="social-icon">
-              <a href="#h">
-                <img src={navIcon1} alt="" />
-              </a>
-              <a href="#h">
-                <img src={navIcon2} alt="" />
-              </a>
-              <a href="#h">
-                <img src={navIcon3} alt="" />
-              </a>
-            </div> */}
-            <button className="vvd" onClick={() => console.log("connect")}>
+            <button className="vvd" onClick={() => console.log("Get $Aire")}>
               <span>GET $AIRE</span>
             </button>
           </span>
