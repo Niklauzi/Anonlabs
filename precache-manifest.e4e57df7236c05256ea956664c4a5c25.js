@@ -60,28 +60,28 @@ self.__precacheManifest = [
     "url": "/anonlabs/static/media/revicons.04eb8fc5.woff"
   },
   {
-    "revision": "2feb69ccb596730c72920c6ba3e37ef8",
-    "url": "/anonlabs/static/media/revicons.2feb69cc.eot"
-  },
-  {
     "revision": "17629a5dfe0d3c3946cf401e1895f091",
     "url": "/anonlabs/static/media/revicons.17629a5d.ttf"
   },
   {
-    "revision": "e9228c17c13a87653f1b8ed01a3ff306",
-    "url": "/anonlabs/static/media/footer-bg.e9228c17.png"
+    "revision": "2feb69ccb596730c72920c6ba3e37ef8",
+    "url": "/anonlabs/static/media/revicons.2feb69cc.eot"
   },
   {
     "revision": "4ea3794d631bedab7999678f46b0a162",
     "url": "/anonlabs/static/media/CentraNo2-Bold.4ea3794d.ttf"
   },
   {
+    "revision": "63911e8535278ced52b8a37e819f6f5d",
+    "url": "/anonlabs/static/media/CentraNo2-Medium.63911e85.ttf"
+  },
+  {
     "revision": "386f05946a76935fcabf319affff517a",
     "url": "/anonlabs/static/media/CentraNo2-Book.386f0594.ttf"
   },
   {
-    "revision": "63911e8535278ced52b8a37e819f6f5d",
-    "url": "/anonlabs/static/media/CentraNo2-Medium.63911e85.ttf"
+    "revision": "e9228c17c13a87653f1b8ed01a3ff306",
+    "url": "/anonlabs/static/media/footer-bg.e9228c17.png"
   },
   {
     "revision": "9987a31242b8e44ff32d32454c33834b",
